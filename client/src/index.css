@@ -1,0 +1,89 @@
+/* index.css */
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style the header */
+header {
+  background: #333;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+header a:hover {
+  background: #575757;
+}
+
+/* Style the main content */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #575757;
+}
+
+/* Book list styles */
+h3 {
+  text-align: center;
+  margin: 10px 0;
+}
