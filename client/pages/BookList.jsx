@@ -8,7 +8,9 @@ export default function BookList() {
 
   async function getBooks() {
     // call api
-    const response = await fetch("http://localhost:8080/books");
+    const response = await fetch(
+      "https://week-07-assignment.onrender.com/books"
+    );
     //get data from repsonse
     const data = await response.json();
     // update state with new data

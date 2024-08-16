@@ -20,7 +20,7 @@ export default function BookForm() {
     console.log("Form is submitted");
     console.log(form);
     //create post fetch req to server
-    await fetch("http://localhost:8080/books", {
+    await fetch("https://week-07-assignment.onrender.com/books", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
